@@ -7,7 +7,7 @@ var proxy = new Rhodium({
   prefix: "/service/",
   encode: "plain",
   server: app,
-  title: "Ripiide",
+  title: "Raven",
   favicon: "https://discord.com",
   wss: true,
   corrosion: [false, {}],
