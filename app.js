@@ -31,5 +31,5 @@ app.use(function (req, res) {
 })
 
 app.listen(process.env.PORT || port, () => {
-  console.log(`Riptide is running at localhost:${port}`)
+  console.log(`Raven is running at localhost:${port}`)
 });
