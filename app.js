@@ -7,7 +7,7 @@ var proxy = new Rhodium({
   prefix: "/service/",
   encode: "plain",
   server: app,
-  title: "Raven",
+  title: "Ripiide",
   favicon: "https://discord.com",
   wss: true,
   corrosion: [false, {}],
@@ -31,5 +31,5 @@ app.use(function (req, res) {
 })
 
 app.listen(process.env.PORT || port, () => {
-  console.log(`Raven is running at localhost:${port}`)
+  console.log(`Anchor is running at localhost:${port}`)
 });
